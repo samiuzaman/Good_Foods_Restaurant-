@@ -143,6 +143,54 @@ header {
   opacity: 0.7;
 }
 /* Card Box Section Code End */
-
+/* About Section Code Start */
+#about-section {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  background-color: white;
+}
+.about-images-div {
+  width: 50%;
+}
+.about-images-div img {
+  width: 100%;
+  height: 100%;
+}
+.about-details-div {
+  width: 50%;
+  text-align: center;
+  align-content: center;
+}
+.about-details-div h2 {
+  font-size: 35px;
+  padding: 0 50px;
+}
+.about-details-div p {
+  font-size: 18px;
+  padding-top: 22px;
+  padding-bottom: 40px;
+}
+.about-details-div h4 {
+  font-size: 22px;
+  border-top: 1px solid #10101057;
+  border-bottom: 1px solid #10101057;
+  padding: 20px 30px;
+}
+.about-icon-div i {
+  font-size: 35px;
+  margin-top: 32px;
+  padding-right: 15px;
+}
+.about-icon-div i:nth-child(1) {
+  color: blue;
+}
+.about-icon-div i:nth-child(3) {
+  color: #007ab5;
+}
+.about-icon-div i:nth-child(4) {
+  color: red;
+}
+/* About Section Code End */
 
 
