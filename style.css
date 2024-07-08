@@ -192,5 +192,50 @@ header {
   color: red;
 }
 /* About Section Code End */
-
+/* Single Card Section Code Start */
+#single-card-section {
+  width: 100%;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.single-card {
+  width: 35%;
+  margin: 0 auto;
+  box-shadow: 5px 5px 8px gray;
+  border-radius: 18px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.single-card img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.single-card span {
+  font-size: 18px;
+  padding: 10px 23px;
+  background-color: #53c30363;
+  border-radius: 5px;
+}
+.single-card h3 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 25px;
+}
+.single-card p {
+  font-size: 17px;
+  padding: 0 28px 35px 28px;
+}
+.single-card button {
+  padding: 10px 25px;
+  background-color: #52c303;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.single-card button:hover {
+  background-color: #57c708d2;
+}
+/* Single Card Section Code End */
 
