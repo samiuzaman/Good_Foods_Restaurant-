@@ -1,0 +1,13 @@
+/* Reset Code Start */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Work Sans;
+  background-color: #dfe6e9;
+}
+/* Reset Code End */
