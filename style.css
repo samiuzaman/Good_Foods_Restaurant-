@@ -70,7 +70,79 @@ header {
 }
 /* Banner Section Code End */
 
-
+/* Card Box Section Code Start */
+.card-box-section {
+  width: 100%;
+  background-color: white;
+}
+.card-box-title {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-box-parent-div h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.card-box-parent-div h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.card-box-parent-div button {
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #52c303;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.card-box-parent-div button:hover {
+  box-shadow: 4px 4px 5px gray;
+  background-color: #377709;
+}
+.card-box-parent-div {
+  width: 75%;
+  margin: 0 auto;
+  padding: 85px 0;
+  text-align: center;
+}
+.card-single-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.favorite-single-div {
+  width: 35%;
+  text-align: center;
+  padding: 20px 5px;
+}
+.favorite-single-div img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.favorite-single-details-div span {
+  background-color: #53c30359;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+.favorite-single-details-div h3 {
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.favorite-single-details-div p {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+/* Card Box Section Code End */
 
 
 
